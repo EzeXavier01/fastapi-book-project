@@ -9,7 +9,7 @@ services:
   nginx:
     image: nginx:latest
     environment:
-      - SERVER_NAME=fastapi-book-project-chi.vercel.app
+      - SERVER_NAME=fastapi-book-project-pbfexzzue-ifeanyis-projects-f7874c20.vercel.app
     container_name: fastapi-nginx
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
